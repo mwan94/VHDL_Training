@@ -1,0 +1,7 @@
+Running: xsim.dir/BTNS_to_LEDS_behav/xsimk.exe -simmode gui -wdb BTNS_to_LEDS_behav.wdb -simrunnum 0 -socket 64632
+Design successfully loaded
+Design Loading Memory Usage: 10820 KB (Peak: 10820 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 11884 KB (Peak: 11884 KB)
+Simulation CPU Usage: 77 ms

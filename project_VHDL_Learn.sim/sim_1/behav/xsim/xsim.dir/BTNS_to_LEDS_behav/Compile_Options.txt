@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" -L "xpm" --snapshot "BTNS_to_LEDS_behav" "xil_defaultlib.BTNS_to_LEDS" -log "elaborate.log" 

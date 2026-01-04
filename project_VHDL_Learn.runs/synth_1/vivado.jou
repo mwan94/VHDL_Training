@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Sun Jan  4 12:44:55 2026
+# Process ID         : 19856
+# Current directory  : F:/VHDL_Training/project_VHDL_Learn/project_VHDL_Learn.runs/synth_1
+# Command line       : vivado.exe -log BTNS_to_LEDS.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source BTNS_to_LEDS.tcl
+# Log file           : F:/VHDL_Training/project_VHDL_Learn/project_VHDL_Learn.runs/synth_1/BTNS_to_LEDS.vds
+# Journal file       : F:/VHDL_Training/project_VHDL_Learn/project_VHDL_Learn.runs/synth_1\vivado.jou
+# Running On         : Ifrit
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz
+# CPU Frequency      : 3600 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 8
+# Host memory        : 68634 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 72929 MB
+# Available Virtual  : 46080 MB
+#-----------------------------------------------------------
+source BTNS_to_LEDS.tcl -notrace

@@ -42,7 +42,7 @@ EAStep()
 }
 
 # pre-commands:
-/bin/touch .init_design.begin.rst
-EAStep vivado -log BTNS_to_LEDS.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source BTNS_to_LEDS.tcl -notrace
+/bin/touch .write_bitstream.begin.rst
+EAStep vivado -log Blinking_LED.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source Blinking_LED.tcl -notrace
 
 

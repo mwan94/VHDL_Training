@@ -41,4 +41,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log BTNS_to_LEDS.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source BTNS_to_LEDS.tcl
+EAStep vivado -log Blinking_LED.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Blinking_LED.tcl

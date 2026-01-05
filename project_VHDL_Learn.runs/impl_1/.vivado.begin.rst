@@ -3,3 +3,18 @@
     <Process Command="vivado.bat" Owner="Meem" Host="IFRIT" Pid="32184" HostCore="8" HostMemory="068634517504">
     </Process>
 </ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="Meem" Host="IFRIT" Pid="23700" HostCore="8" HostMemory="068634517504">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="Meem" Host="IFRIT" Pid="37000" HostCore="8" HostMemory="068634517504">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="Meem" Host="IFRIT" Pid="24604" HostCore="8" HostMemory="068634517504">
+    </Process>
+</ProcessHandle>

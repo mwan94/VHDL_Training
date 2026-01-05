@@ -7,4 +7,4 @@ REM Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 REM Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 REM
 
-vivado -log BTNS_to_LEDS.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source BTNS_to_LEDS.tcl -notrace
+vivado -log Blinking_LED.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source Blinking_LED.tcl -notrace

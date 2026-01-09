@@ -1,2 +1,4 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "F:/VHDL_Training/project_VHDL_Learn/project_VHDL_Learn.srcs/sources_1/new/test.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'BTNS_to_LEDS'
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/VHDL_Training/project_VHDL_Learn/project_VHDL_Learn.srcs/sources_1/new/and_gate_project.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'and_gate_project'
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/VHDL_Training/project_VHDL_Learn/project_VHDL_Learn.srcs/sim_1/new/and_gate_project_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'and_gate_project_TB'

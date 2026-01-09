@@ -1,7 +1,7 @@
 Vivado Simulator v2025.1.0
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: C:/Xilinx/2025.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip -L xpm --snapshot BTNS_to_LEDS_behav xil_defaultlib.BTNS_to_LEDS -log elaborate.log 
+Running: C:/Xilinx/2025.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot and_gate_project_TB_behav xil_defaultlib.and_gate_project_TB -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -11,5 +11,7 @@ Time Resolution for simulation is 1ps
 Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
-Compiling architecture rtl of entity xil_defaultlib.btns_to_leds
-Built simulation snapshot BTNS_to_LEDS_behav
+Compiling package std.env
+Compiling architecture rtl of entity xil_defaultlib.and_gate_project [and_gate_project_default]
+Compiling architecture behavioral of entity xil_defaultlib.and_gate_project_tb
+Built simulation snapshot and_gate_project_TB_behav

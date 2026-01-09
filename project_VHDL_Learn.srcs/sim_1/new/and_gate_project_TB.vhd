@@ -35,25 +35,40 @@ use std.env.finish;
 entity and_gate_project_TB is
 --  Port ( );
 end and_gate_project_TB;
+-- No inputs or outputs declared under the entity section (we usually do that in the design source, not in testbench)
+-- Testbench doesn't connect to external signals
+-- Testbench itself provides the inputs and monitor the output
+
+
+
+
 
 architecture Behavioral of and_gate_project_TB is
 
-    signal in1, in2, out1 : std_logic;
+    signal in1, in2, out1 : std_logic; --signals created for simulation, will be connected to the I/Os of the UUT
+                                        -- Stimuli provided to UUT
 
 begin
 
 
-UUT : entity work.and_gate_project
+UUT : entity work.and_gate_project  --Instantiating the entity and_gate_project UUT we created. 
     port map (
     
-        switch_1 => in1,
-        switch_2 => in2,
-        led_1 => out1
+        switch_1 => in1, --input 1 will be connected to switch_1
+        switch_2 => in2, --input 2 will be connected to switch_2
+        led_1 => out1    --output will be connected to led_1
     );
 
 process is
     begin
-    
+        
+        -- in1 and in2 --> out
+        -- in1    in2     out
+        --  0      0       0   
+        --  0      1       0    
+        --  1      0       0    
+        --  1      1       1    
+        
         in1 <= '0';
         in2 <= '0';
         wait for 10 ns;

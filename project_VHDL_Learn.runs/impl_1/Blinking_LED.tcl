@@ -109,7 +109,7 @@ set rc [catch {
   create_msg_db write_bitstream.pb
   set_param chipscope.maxJobs 2
   set_param general.usePosixSpawnForFork 1
-  set_param synth.incrementalSynthesisCache C:/Users/Meem/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-34000-Ifrit/incrSyn
+  set_param synth.incrementalSynthesisCache C:/Users/Meem/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-33124-Ifrit/incrSyn
   set_param checkpoint.writeSynthRtdsInDcp 1
   set_param xicom.use_bs_reader 1
   set_param runs.launchOptions { -jobs 4  }
